@@ -1,0 +1,35 @@
+ Week 1: Rails API Foundations
+🎯 Goal: Set up a Rails API with authentication & database connections
+🔹 Tasks:
+✔️ Initialize a new Rails API (rails new . --api)
+✔️ Set up PostgreSQL & configure database (rails db:create db:migrate)
+✔️ Implement authentication with Devise or JWT
+✔️ Test basic routes (rails routes) & controllers
+📌 Milestone: API should be running locally with authentication enabled.
+
+✅ Week 2: Build Key API Endpoints
+🎯 Goal: Develop CRUD endpoints for core resources (e.g., Orders, Users, Products)
+🔹 Tasks:
+✔️ Generate models & controllers (rails g model Order name:string status:string)
+✔️ Implement full CRUD operations (create, read, update, delete)
+✔️ Write request tests using RSpec
+✔️ Integrate background jobs with Sidekiq (if needed)
+📌 Milestone: API should be able to handle client requests successfully.
+
+✅ Week 3: Set Up Frontend with React + Vite
+🎯 Goal: Build a fast React frontend using Vite
+🔹 Tasks:
+✔️ Initialize React project (npm create vite@latest my-react-app --template react)
+✔️ Install Axios & connect React to Rails API
+✔️ Create reusable components & state management with Redux or Zustand
+✔️ Implement routing (react-router-dom)
+📌 Milestone: React app should display data from Rails API correctly.
+
+✅ Week 4: Optimization & Deployment
+🎯 Goal: Polish backend, optimize frontend, and deploy the project
+🔹 Tasks:
+✔️ Optimize API responses with caching & pagination
+✔️ Improve frontend performance with lazy loading & SSR (if needed)
+✔️ Deploy Rails API to Render or Railway
+✔️ Deploy React frontend to Vercel or Netlify
+📌 Final Milestone: Fully functional, deployed Rails + React project. 
